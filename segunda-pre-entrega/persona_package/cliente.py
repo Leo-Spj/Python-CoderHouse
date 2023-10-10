@@ -1,5 +1,5 @@
 ## clase cliente que hereda de persona
-import persona
+from persona_package import persona
 
 class Cliente(persona.Persona):
 
