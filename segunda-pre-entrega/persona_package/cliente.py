@@ -5,7 +5,7 @@ class Cliente(persona.Persona):
 
     codigo_cliente = 0
     tipo_cliente = ""
-    estado = ""
+    estado = "Activo"
     fecha_alta = ""
     fecha_baja = ""
 
@@ -13,10 +13,9 @@ class Cliente(persona.Persona):
     def __init__(self, nombre, apellido, edad):
         super().__init__(nombre, apellido, edad)
        
-    def set_datos_cliente(self, codigo_cliente, tipo_cliente, estado, fecha_alta):
+    def set_datos_cliente(self, codigo_cliente, tipo_cliente, fecha_alta):
         self.codigo_cliente = codigo_cliente
         self.tipo_cliente = tipo_cliente
-        self.estado = estado
         self.fecha_alta = fecha_alta
 
     def get_codigo_cliente(self):
