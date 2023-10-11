@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     author='Leonardo Espejo',
-    name='coderhouse-python',
+    name='persona_cliente_package',
     version='0.0.1',
     description='Segunda pre-entrega del curso de Python de CoderHouse',
     packages=['persona_package'],
