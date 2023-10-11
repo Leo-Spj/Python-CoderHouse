@@ -106,4 +106,4 @@ class Persona:
         return self.idiomas
     
     def __str__(self):
-        return "Nombre: " + self.nombre + " Apellido: " + self.apellido + " Edad: " + str(self.edad) + " Fecha de nacimiento: " + self.fecha_nacimiento + " ID: " + str(self.id) + " Estado civil: " + self.estado_civil + " Nacionalidad: " + self.nacionalidad + " Direccion: " + self.direccion + " Telefono: " + self.telefono + " Email: " + self.email + " Estudios: " + str(self.estudios) + " Experiencia laboral: " + str(self.experiencia_laboral) + " Habilidades: " + str(self.habilidades) + " Idiomas: " + str(self.idiomas)
+        return "Nombre: " + self.nombre + ", Apellido: " + self.apellido + ", Edad: " + str(self.edad) 
